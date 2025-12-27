@@ -1,0 +1,30 @@
+# ries-rs is a separate repository
+ries-rs/
+
+# C build artifacts (in ries-original)
+ries-original/*.o
+ries-original/*.a
+ries-original/*.so
+ries-original/*.dylib
+ries-original/ries
+ries-original/riesw
+ries-original/riesldbl
+ries-original/*.dSYM/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Debug and profiling
+*.dSYM/
+*.gcda
+*.gcno
+*.profraw
+
+# Temporary files
+*.tmp
+*.bak
